@@ -6,9 +6,10 @@ git remote -v
 git branch -d branch-name
 git remote rm remote-name
 
-#add new branch
+# branches
 git branch xxx
 git remote add origin_xxx remote_url
+git checkout branch_name
 
 #replace old origin url
 git remote set-url origin new_git_url
@@ -19,3 +20,17 @@ git ls-file
 
 #delete the last commit
 git reset HEAD~1
+
+#add all files
+git add .
+
+#add certain file
+git add xxx_file
+
+#commit locally
+git commit -m "msg put here"
+
+# push to remote url-origin
+git push origin branch_name
+
+
