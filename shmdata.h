@@ -1,7 +1,7 @@
 #ifndef _SHMDATA_H_HEADER  
 #define _SHMDATA_H_HEADER  
   
-#define TEXT_SZ 2048  
+#define TEXT_SZ 4096  
 
 enum write_flag {
 	WRITE_FLAG,
