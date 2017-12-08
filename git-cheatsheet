@@ -1,0 +1,21 @@
+#view current branch or remotes
+git branch -v
+git remote -v
+
+#delete branch
+git branch -d branch-name
+git remote rm remote-name
+
+#add new branch
+git branch xxx
+git remote add origin_xxx remote_url
+
+#replace old origin url
+git remote set-url origin new_git_url
+
+#git version
+# check what file in cache
+git ls-file
+
+#delete the last commit
+git reset HEAD~1
